@@ -1,0 +1,20 @@
+{{- $foto := .Get 0 -}}
+{{- $alt_text := .Get 1 -}}
+<img onmouseover="playSound()" onmouseout="pauseSound()" src="/soundscapes/{{$foto}}.jpg" alt="{{$alt_text}}">
+
+<audio id="soundscape_player" src="/soundscapes/{{$foto}}.mp3" preload="auto">
+  Your browser does not support the <code>audio</code> element.
+</audio>
+
+<script>
+var player = document.getElementById('soundscape_player')
+
+function playSound() {
+  player.play();
+}
+
+function pauseSound() {
+  player.pause()
+}
+
+</script>
