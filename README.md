@@ -13,6 +13,12 @@ A shortcode for Hugo that adds a mouseover sound to an image.
   {{< soundscape name_of_file "Alternate text" >}}
   ```
 
+## In action
+
+Here you can see and listen to the soundscape-shortcorde in action:
+
+- [jzqk.org](https://jzqk.org/docs/ansehen/soundscapes/)
+
 ## Known limitations
 
 This is an early version of something I tried to achieve, and I am learning to use Hugo as a static site generator since not very long –  please keep that in mind.
